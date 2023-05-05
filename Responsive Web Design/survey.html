@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>freeCodeCamp Survey</h1>
+        </header>
+        <div class="container">
+        <div class="paragraph">
+            <p>Hello! We just want to check where you stand in the world of tech. Please fill this form with the correct information to help our research.</p>
+        </div>
+        <div class="form-div">
+            <fieldset class="one">
+                <label for="name">Name
+                    <input id="name" type="text" required placeholder="What is your name?">
+                </label>
+                <label for="age">Age
+                    <input id="age" type="text" required placeholder="How old are you?">
+                </label>
+                <label for="country">Nationality
+                    <input id="country" type="text" placeholder="Where are you from?">
+                </label>
+                <label for="gender" class="gender">Gender</label>
+                    <label>Male<input id="gender" type="radio" value="1" name="gender"></label>
+                    <label>Female<input id="gender" type="radio" value="2" name="gender"></label>
+            </fieldset>
+            <fieldset>
+                <label for="year">What year did you start to learn to code?
+                    <input type="text" id="year" required>
+                </label>
+                <label for="language">What language did you start learning with?
+                    <input type="text" id="language" required>
+                </label>
+            </fieldset>
+            <fieldset class="check-fieldset">
+                <label>How did you learn to code? (Tick all that apply)</label>
+                    <label class="check-label">Bootcamp<input type="checkbox" class="check" value="check"></label>
+                    <label class="check-label">Personal tutor<input type="checkbox" class="check" value="check"></label>
+                    <label class="check-label">Books<input type="checkbox" class="check" value="check"></label>
+                    <label class="check-label">YouTube videos<input type="checkbox" class="check" value="check"></label>
+                    <label class="check-label">Bought an online course<input type="checkbox" class="check" value="check"></label>
+                    <label class="check-label">Through a coding app<input type="checkbox" class="check" value="check"></label>
+                    <label class="check-label">I studied Computer Science in university<input type="checkbox" class="check" value="check"></label>
+                    <label class="check-label">Other<input type="checkbox" class="check" value="check"></label>
+                <label>If you ticked "Other" please give more details
+                    <textarea></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>What is your current state?
+                    <select>
+                        <option>Please select one from the list of options</option>
+                        <option>Student</option>
+                        <option>Freelancer</option>
+                        <option>I have a job!</option>
+                        <option>I'm working on building my career</option>
+                        <option>I'm Unemployed</option>
+                        <option>It's complicated</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>What are your reasons for learning to code?
+                    <textarea placeholder="I am learning to code because..."></textarea>
+                </label>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </div>
+        <footer>
+            <p>Copyright &copy;2023 freeCodeCamp</p>
+            <p><a href="www.google.com" target="_blank">Visit our website</a></p>
+        </footer>
+    </div>
+    </body>
+</html>
