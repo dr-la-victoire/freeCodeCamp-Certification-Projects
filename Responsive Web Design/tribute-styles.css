@@ -1,0 +1,82 @@
+/* GENERAL */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(216, 216, 216);
+}
+
+/* HEADER */
+header {
+    text-align: center;
+}
+
+/* MAIN LAYOUT */
+main {
+    width: 100%;
+}
+
+/* MAIN DESIGN */
+
+#img-div {
+    background-color: white;
+    width: 80%;
+    margin: 10px auto;
+}
+
+img {
+    display: block;
+    width: 80%;
+    max-width: 100%;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*margin: 10px auto;*/
+}
+
+#img-caption {
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1em;
+    padding: 0 10px 10px 10px;
+}
+
+#tribute-info {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+li {
+    line-height: 1.5rem;
+    font-size: 0.8em;
+}
+
+blockquote {
+    display: block;
+    font-style: italic;
+}
+
+.quote {
+    display: block;
+    margin-left: 60px;
+}
+
+.end {
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:active {
+    color: rgb(216, 216, 216)
+}
+
+a:visited {
+    color: rgb(82, 156, 181);
+}
